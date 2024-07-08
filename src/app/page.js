@@ -15,6 +15,8 @@ const HomePage = async () => {
 
   // console.log(data);
 
+  throw new Error("Error from homepage")
+
   return (
     <div>
       <h1>Welcome to Next.js Home Page</h1>
