@@ -1,13 +1,54 @@
 {
-    "posts": [
-      { "id": "1", "title": "a title", "views": 100 },
-      { "id": "2", "title": "another title", "views": 200 }
-    ],
-    "comments": [
-      { "id": "1", "text": "a comment about post 1", "postId": "1" },
-      { "id": "2", "text": "another comment about post 1", "postId": "1" }
-    ],
-    "profile": {
-      "name": "typicode"
+  "shoes": [
+    {
+      "id": 1,
+      "title": "Nike Air Max 270",
+      "description": "A lightweight shoe with a large volume Max Air unit for comfortable cushioning and style."
+    },
+    {
+      "id": 2,
+      "title": "Adidas Ultraboost 21",
+      "description": "A responsive running shoe with Boost midsole cushioning and a supportive upper for high performance."
+    },
+    {
+      "id": 3,
+      "title": "Puma RS-X3",
+      "description": "A retro-inspired sneaker featuring bold colors and a chunky sole for a modern twist on a classic design."
+    },
+    {
+      "id": 4,
+      "title": "New Balance 990v5",
+      "description": "A premium running shoe with a balance of cushioning and stability, crafted in the USA."
+    },
+    {
+      "id": 5,
+      "title": "ASICS Gel-Kayano 27",
+      "description": "A stability running shoe designed for overpronators, with Gel technology for shock absorption and comfort."
+    },
+    {
+      "id": 6,
+      "title": "Reebok Nano X1",
+      "description": "A versatile training shoe built for high-intensity workouts, featuring Flexweave upper and responsive cushioning."
+    },
+    {
+      "id": 7,
+      "title": "Under Armour HOVR Phantom 2",
+      "description": "A running shoe with HOVR technology for zero gravity feel and Energy Web compression mesh for energy return."
+    },
+    {
+      "id": 8,
+      "title": "Brooks Ghost 13",
+      "description": "A neutral running shoe with DNA Loft cushioning for a smooth and soft ride, ideal for daily runs."
+    },
+    {
+      "id": 9,
+      "title": "Saucony Endorphin Speed",
+      "description": "A lightweight racing shoe with a responsive PWRRUN PB midsole and Speedroll technology for a propulsive ride."
+    },
+    {
+      "id": 10,
+      "title": "Mizuno Wave Rider 24",
+      "description": "A neutral running shoe with Mizuno Wave technology for cushioning and stability, suitable for long-distance runs."
     }
-  }
+  ]
+}
