@@ -1,25 +1,16 @@
-import Counter from "@/components/Counter/Counter";
+import React from "react";
 
-export const metadata = {
-  title: "Home Page",
-  description: "This is home page",
-};
-
-const HomePage = async () => {
+const AllShoesPage = async () => {
   const res = await fetch("http://localhost:5000/shoes", {
-    next: {
-      revalidate: 5
-    }
+    cache: "no-store",
   });
   const shoes = await res.json();
 
-  // console.log(data);
-
   return (
     <div>
-      <h1>Welcome to Next.js Home Page</h1>
+      <h1 className="text-center text-5xl">All Shoes Page</h1>
       <div className="grid grid-cols-4 justify-items-center gap-10 p-10">
-        {shoes.slice(0,4).map((shoe) => (
+        {shoes.map((shoe) => (
           <div key={shoe.id} className="card bg-base-100 w-96 shadow-xl">
             <figure>
               <img
@@ -38,9 +29,8 @@ const HomePage = async () => {
           </div>
         ))}
       </div>
-      <Counter />
     </div>
   );
 };
 
-export default HomePage;
+export default AllShoesPage;
